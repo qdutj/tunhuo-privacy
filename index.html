@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>寄存记录本 隐私政策</title>
+<style>
+  body{font-family:-apple-system,"HarmonyOS Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+       line-height:1.75;max-width:760px;margin:0 auto;padding:22px 20px 40px;
+       color:#1a1a1a;background:#fff;font-size:15px}
+  h1{font-size:21px;margin:0 0 6px}
+  h2{font-size:17px;margin-top:26px}
+  .meta{color:#8c8c8c;font-size:13px;margin-top:0}
+  .sum{background:#fdf1e7;border-radius:10px;padding:14px 16px;margin:16px 0}
+  .warn{background:#fbf3f2;border-radius:10px;padding:12px 14px;margin:12px 0}
+  strong{color:#b55c22}
+  li{margin:5px 0}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0}
+  th,td{border:1px solid #e4ddd5;padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#faf6f2}
+  code{background:#f3efea;padding:1px 4px;border-radius:4px;font-size:13px;word-break:break-all}
+  @media (prefers-color-scheme: dark){
+    body{background:#131313;color:#e8e6e3}
+    .sum{background:#2a1f16}
+    .warn{background:#2b1d1c}
+    strong{color:#e2a172}
+    th,td{border-color:#3a3530}
+    th{background:#1e1b18}
+    code{background:#242120}
+    .meta{color:#9a9a9a}
+  }
+</style>
+</head>
+<body>
+
+<h1>寄存记录本 · 隐私政策</h1>
+<p class="meta">生效日期：2026-09-19；更新：2026-10-01（全部功能改为免费，不含应用内购买）</p>
+
+<h2>一、一句话</h2>
+<div class="sum">
+<strong>寄存记录本不申请网络访问权限。你记下的一切只存在这台设备上，我们看不到，也拿不到。</strong>
+</div>
+
+<h2>二、我们处理哪些信息</h2>
+<p>你在使用中会录入两类内容：</p>
+<ol>
+<li><strong>你自己的记录</strong>：商品名、规格、件数、原价与优惠、购买日期、有效期、备注、小票照片、商品品牌、门店（门店品牌、店名、地址），以及货品的修改记录（改过哪一项、何时改的）。</li>
+<li><strong>你替别人记的标识</strong>：归属人的<strong>名称</strong>（通常是手机尾号或昵称）与<strong>备注</strong>，以及他名下的货品。</li>
+</ol>
+
+<div class="warn">
+<p><strong>关于第 2 类，请你注意：</strong></p>
+<ul>
+<li>我们<strong>建议你只填手机尾号或昵称</strong>，不必填写完整手机号或真实姓名——核对件数用尾号已经足够。</li>
+<li>这些信息由<strong>你</strong>录入、由<strong>你</strong>保管；本应用不会替你征得对方同意，也无法代你承担这份责任。</li>
+<li>当你使用「分享寄存清单」把一段文字发给别人时，<strong>发送动作由你自己在系统分享里完成</strong>，本应用不申请网络访问权限，你的记录不经过任何服务器。<strong>分享文本默认不包含你写的备注</strong>，要包含需你显式勾选。</li>
+  <li>当你使用「生成寄存单」时，本应用在<strong>本机</strong>把这位归属人名下还在存的货品（名称、共几件、已提几件、还剩几件、寄存日、有效期、最近提货日）连同单号、生成时刻和你填的店名画成一张图片，再由<strong>你自己</strong>在系统分享里选择发给谁。<strong>寄存单不含备注、不含任何金额、不含二维码等机器可读的码</strong>；图片只写在本应用的私有缓存目录，不申请存储权限。</li>
+  <li><strong>门店名称与地址</strong>：由你自己手动填写，<strong>仅保存在本机</strong>；本应用不使用定位、不接入地图、不申请位置权限。「分享寄存清单」和「寄存单」<strong>不包含门店与地址</strong>；只有你自己导出的 CSV 文件和备份文件里包含它们。</li>
+</ul>
+</div>
+
+<h2>三、我们不做什么（每一条都可验证）</h2>
+<ul>
+<li><strong>不申请网络访问权限</strong>。你可以在系统「应用信息 → 权限」里核对。</li>
+<li><strong>不上传、不同步、不备份到云端</strong>。无需注册，没有登录，没有服务器。</li>
+<li><strong>开发者无法访问你的任何数据</strong>——机制上做不到，不是「承诺不看」。</li>
+<li>不读取通讯录、不读取短信、不获取位置、不收集设备标识用于画像。</li>
+<li><strong>不使用人工智能模型，不进行 AI 数据处理或自动化画像。</strong></li>
+<li>不向任何第三方共享、转让、公开披露你的信息。</li>
+</ul>
+
+<h2>四、权限</h2>
+<table>
+<tr><th>权限</th><th>用途</th><th>不给会怎样</th></tr>
+<tr>
+  <td><code>ohos.permission.PUBLISH_AGENT_REMINDER</code>（代理提醒）</td>
+  <td><strong>仅用于</strong>你为货品设置的<strong>有效期到期提醒</strong></td>
+  <td>其他功能全部照常，只是到期不会提醒你</td>
+</tr>
+</table>
+<p><strong>本应用只申请这一项系统权限：代理提醒。</strong>除此之外，不申请网络访问、通讯录、位置、日历、相机、麦克风、存储等其他系统权限。你可以在系统「应用信息 → 权限」里核对。</p>
+<p>图片只通过系统图库选择器（PhotoViewPicker）选取，<strong>不申请存储权限</strong>；选中的照片会复制到本应用的私有目录，其他应用读不到。</p>
+<p><strong>到期提醒</strong>：你给货品填了有效期后，可以选择到期前几天（或不提醒），到点由系统代为发出一条通知。<strong>通知里只写「有 N 件寄存货品某天到期」这类件数与日期，不写归属人名称或尾号、不写商品名、不写备注和金额</strong>——通知可能被身边的人看到，所以不放能认出是谁、是什么的信息。提醒登记在本机系统里，不经过任何服务器；货品作废、彻底删除或提完时，这条提醒会一并取消。</p>
+<p><strong>版本更新检查</strong>：应用启动后会通过华为应用市场的更新服务（AppGallery Kit）检查是否有新版本。这一步由系统的应用市场服务完成，本应用仍不申请网络访问权限；检查只涉及本应用自身的版本信息，<strong>不包含你录入的任何记录</strong>。有新版本时会显示系统的升级提示，你可以选择稍后再说。</p>
+
+<h2>五、数据存在哪、怎么删</h2>
+<ul>
+<li>存在本设备应用私有目录（数据库 + 私有图片目录），其他应用无法读取。</li>
+<li><strong>导出</strong>：「我的 → 导出 CSV」，<strong>免费</strong>。导出文件保存位置由你选择。</li>
+<li><strong>删除</strong>：单条货品先「作废」——作废后不再计入余量，也不出现在清单和导出表格里，但记录仍保留在本机（含在你自己导出的备份里）；作废后可在该货品详情里「彻底删除」，连同它的提货记录、修改记录与小票照片一起删除，<strong>不可恢复</strong>。也可在「我的 → 清除全部数据」一次清空。<strong>清空不可恢复</strong>，本应用没有云端副本可以帮你找回——请先导出 CSV。</li>
+<li>卸载应用即删除全部数据。</li>
+</ul>
+
+<h2>六、桌面卡片</h2>
+<p>桌面卡片是<strong>免解锁可见</strong>的。因此卡片上<strong>只显示件数</strong>（「总余量 N 件 / 今日临期 M 件」），<strong>不显示归属人名称，不显示商品名</strong>。</p>
+
+<h2>七、费用</h2>
+<p>本应用全部功能免费提供，不含应用内购买。</p>
+
+<h2>八、未成年人</h2>
+<p>本应用面向成年人。若你未满 14 周岁，请在监护人指导下使用；请勿在归属人信息中填写未成年人的完整姓名或手机号。</p>
+
+<h2>九、联系我们</h2>
+<p>客服邮箱：<strong>x2ai_tech@163.com</strong></p>
+
+<h2>十、变更</h2>
+<p>政策变更会随版本更新发布，并在应用内「我的 → 隐私政策」保持<strong>常驻可查阅</strong>入口。</p>
+
+<h1>用户协议〔待律师〕</h1>
+
+<h2>1. 服务内容</h2>
+<p>本应用为本地工具类软件，所有记录仅保存在您的设备本机，不上传服务器。本应用免费提供，不是订阅，不会自动续费。</p>
+
+<h2>2. 付费与退款</h2>
+<p>本应用当前全部功能免费提供，不含应用内购买，不会向您收取费用，也不会自动扣费。若今后新增付费功能，我们会在应用内明确告知后再启用；您依法享有的解除合同、退款等权利不因本条受影响。</p>
+
+<h2>3. 上架与停止分发</h2>
+<p>我们不保证本应用永久在应用市场上架。若停止分发，已安装设备上的本应用可继续使用；导出功能（CSV）不因停止分发而失效。</p>
+
+<h2>4. 数据与导出</h2>
+<p>数据只存本机，导出为通用格式（CSV）的功能对所有用户免费提供，不设条件、不设期限。请自行做好备份；因设备丢失、系统重装、误删导致的数据丢失，我们无法代为恢复。</p>
+
+<h2>5. 责任范围〔待律师〕</h2>
+<p>因本应用故障给您造成损失的，我们依法承担赔偿责任。我们对订立本协议时不能预见的损失，以及因您未按第 4 条备份、未按提示核对数据而扩大的损失，依法不承担赔偿责任。法律规定不得限制或免除的责任，不受本条影响。</p>
+
+<h2>6. 用途边界</h2>
+<p>本应用记录内容仅供个人整理与参考，不构成医疗、财务、法律等专业意见。</p>
+
+<h2>7. 协议变更</h2>
+<p>协议更新时在应用内提示。更新不会减损您已获得的功能（含此前付费用户已获得的全部功能），也不会改变第 3、4 条承诺；不同意更新的，可继续按当前版本使用。</p>
+
+<h2>8. 主体与联系方式</h2>
+<p>本应用由田杰（个人开发者）开发运营，联系邮箱见上面「九、联系我们」一节：x2ai_tech@163.com。</p>
+
+</body>
+</html>
